@@ -12,6 +12,7 @@ function init() {
       index++;
         if (index === code.length) {
           window.alert("Congradulations!");
+          console.error('help')
           index = 0;
         }
     } else {
